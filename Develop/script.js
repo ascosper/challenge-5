@@ -4,15 +4,15 @@ $("#currentDay").html(todayDate)
 
 //connect for past prest future
 
-
-
-const rows = document.getElementsByClassName("row");
+Function()
 let currentHour = parseInt(moment().format('H'));
- const rowHour = parseInt(getElementsByClassName("13"));
-if (rowHour < currentHour){
+ var rowHour = [8,9,10,11,12,13,14,15,16,17];
+ for (var id of rowHour){
+ 
+if (id < currentHour){
     $(this).addClass('past');
 }
-else if (rowHour === currentHour){
+else if (id === currentHour){
     $(this).removeClass('past');
     $(this).addClass('present');
 }
@@ -20,6 +20,6 @@ else {
     $(this).removeClass('past');
     $(this).removeClass('present');
     $(this).addClass('future');
-}
+}}
 //save button after reload
 
