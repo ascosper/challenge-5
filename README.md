@@ -24,4 +24,4 @@ Deployed Application:
 https://ascosper.github.io/challenge-5/ 
 
 Screenshot:
-<img rel="screenshot" href="./Develop/screenshot.jpg">
+./Develop/screenshot.jpg
